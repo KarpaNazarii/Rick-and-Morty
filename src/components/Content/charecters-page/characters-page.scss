@@ -1,0 +1,96 @@
+.character-page {
+  .character-page__back-btn {
+    p.character-page__back-btn-content {
+      font-family: 'Karla', sans-serif;
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      font-weight: 700;
+      text-align: left;
+      text-transform: uppercase;
+      color: #000000;
+      span {
+        margin-left: 8px;
+      }
+    }
+  }
+  .character-page__info {
+    max-width: 413px;
+    margin: 31px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .character-page__info-img {
+      border: 5px solid #F2F2F7;
+      border-radius: 50%;
+      max-width: 150px;
+      margin-bottom: 13px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+
+    }
+    p.character-page__info-title {
+      margin-bottom: 48px;
+      color: #081F32;
+      font-size: 32px;
+      font-weight: 400;
+      text-align: center;
+
+    }
+    .character-page__description {
+      p.character-page__description-title {
+        margin-bottom: 48px;
+        color: #8E8E93;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+        letter-spacing: 0.15px;
+
+      }
+    }
+  }
+}
+
+.description-title{
+  color: #081F32;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 9px;
+  margin-bottom: 3px;
+}
+
+.description-item{
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: rgba(110, 121, 140, 1);
+
+  margin-bottom: 11px;
+}
+
+.type-box{
+  hr{
+    border-color: rgba(33, 33, 33, 0.08);
+    height: 1px;
+  }
+}
+
+@media (min-width: 600px ){
+  .character-page {
+    .character-page__info {
+      p.character-page__info-title{
+        font-size: 48px;
+      }
+      .character-page__info-img {
+        max-width: 300px;
+      }
+      p.character-page__info-title{
+        text-align: center;
+        font-size: 42px;
+      }
+    }
+  }
+}
